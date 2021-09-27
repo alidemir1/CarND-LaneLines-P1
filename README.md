@@ -23,11 +23,11 @@ My pipeline consisted following steps;
 
 After applying above steps, it is observed more than one  lines are detected on each of both left and right sides. 
 
-![alt text][image1]
+!["Hough Lines"][image1]
 
 In order to obtain single line on each both sides; draw_lines() function is modified. Side of the lines are detected by their slope. All the lines in left and right are clustered and average of each cluster is calculated. Average lines are obtained for both left and right clusters.
 
-![alt text][image2]
+!["Average Lines"][image2]
 
 
 
